@@ -1,0 +1,9 @@
+DetectLanguage:
+   API_KEY: 1b34521dd471a0b45b7a751a6a428eb2
+
+spring:
+   profiles:
+      active: local
+      
+logging:
+   file.name: ${HOME}/spring-boot-project/image-discern/logs/system.log

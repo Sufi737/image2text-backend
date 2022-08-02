@@ -1,0 +1,5 @@
+DetectLanguage:
+   API_KEY: 1b34521dd471a0b45b7a751a6a428eb2
+   
+logging:
+   level.*: DEBUG
