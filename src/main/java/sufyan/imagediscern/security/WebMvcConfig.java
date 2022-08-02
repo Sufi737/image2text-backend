@@ -12,7 +12,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	@Override
 	public void addCorsMappings(CorsRegistry registry) {
 		registry.addMapping("/image/**")
-	           	.allowedOrigins("http://localhost:3000")
+	           	.allowedOrigins("http://localhost:3000", "https://image2text-frontend.herokuapp.com")
 	           	.allowedMethods("GET", "POST")
 	           	.allowedHeaders("*")
 	           	.allowCredentials(false).maxAge(3600);
